@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment variables & Sensitive keys (CRITICAL)
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.project
+.pydevproject
+
+# System & OS Files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary & Audio Cache
+*.wav
+*.mp3
+temp_audio.*
+data/notes/*.txt
+!data/notes/.gitkeep
+
+# Logs & Diagnostics
+*.log
+logs/
